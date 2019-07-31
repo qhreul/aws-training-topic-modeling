@@ -13,6 +13,8 @@ As part of the project, we will be using the following dataset:
 2. Apply NLP (e.g. lemmatization, stopwords removal, etc.) to clean dataset
 3. Create term matrix based on processed reviews
 4. Execute Neural Topic Model to extract topics from reviews
+5. Compare extracted topics with list of reasons for returning an item
+![List of Reason for Returns](ReturnReason.png)
 
 ## References
 - [AWS Documentation on Neural Topic Model (NTM) Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/ntm.html)

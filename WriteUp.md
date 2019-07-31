@@ -9,9 +9,10 @@ As part of the project, we will be using the following dataset:
 - [NLTK list of English stopwords](https://gist.github.com/sebleier/554280)
 
 ## Strategy
-1. Identify subset of negative reviews
-2. Apply NLP (e.g. lemmatization, stopwords removal, etc.)
-3. Execute Neural Topic Model to extract topics from reviews
+1. Create subset of negative reviews
+2. Apply NLP (e.g. lemmatization, stopwords removal, etc.) to clean dataset
+3. Create term matrix based on processed reviews
+4. Execute Neural Topic Model to extract topics from reviews
 
 ## References
 - [AWS Documentation on Neural Topic Model (NTM) Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/ntm.html)
